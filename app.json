@@ -6,26 +6,29 @@
 	"env": {
 		"HEROKU_APP_NAME": {
 			"description": "This should be the same as \"App name\" above."
+			"value": "2dm"
 		},
 		"ARIA2C_SECRET": {
 			"description": "UEHToR's secret.It is the Master Password for Leacher Authorication",
-			"value": "cyberpass"
+			"value": "Piash01761"
 		},
 		
 		"USERNAME": {
 			"description": "Add Username like this. Note : 1st Username => 1st Password",
-			"value": "[\"alpha\", \"User2\", \"User3\", \"User4\", \"User5\"]"
+			"value": "[\"admin\", \"User2\", \"User3\", \"User4\", \"User5\"]"
 		},
 		"PASSWORD": {
 			"description": "Add Password like this. Note : 1st Username => 1st Password",
-			"value": "[\"alpha\", \"Pass2\", \"Pass3\", \"Pass4\", \"Pass5\"]"
+			"value": "[\"admin\", \"Pass2\", \"Pass3\", \"Pass4\", \"Pass5\"]"
 		},
 		"RCLONE_CONFIG": {
 			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
+			"value": "type = drive\nclient_id = 730367063192-knj02aifbsh4aajbbt3g6mv48essulsv.apps.googleusercontent.com\nclient_secret = a_f6Pn4TLcsB9ZE2XBbkWVQO\nscope = drive\ntoken = {"access_token":"ya29.a0ARrdaM8upikfWPupo9C_6FII4fMd5_7_wFKWVn3harggFZ2jh8xi7exfyfMjk3UhADMGPwJoyNPFbbUSP0rKObYuSfUPpAqLYUovho4JBsBhQ4M3IxfB7d2MLQSCd2fJ85oXIBTeSTlDfeYVltR5t2h09cvO","token_type":"Bearer","refresh_token":"1//0gE5TmOLr1QPgCgYIARAAGBASNwF-L9IroS4n2wsIGccnudP2mVDqnGE7K_U-wEOYqhyrnTOUJSwPeazFqL1Oo69cwPWAHoTAU9o","expiry":"2021-09-18T13:39:27.2508708+06:00"
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
 			"description": "Path to store your file in your Rclone drive. Must start with a forward slash.",
+			"value": "/"
 			"required": false
 		}
 	},
